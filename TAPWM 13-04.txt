@@ -1,0 +1,40 @@
+Para criar arquivos que funcionem nas 3 plataformas é necessário ter um index para cada versão
+
+Index.android.tsx
+Index.ios.tsx
+Index.web.tsx
+
+Para gerenciar as 3 versões, é necessário uma classe Interface para padronizar os elementos
+
+
+Método privado do react native, onClose()
+
+elemento Alert precisa ter:
+mensagem, tipo, titulo e visibilidade 
+
+?: em frente a variável indica que o valor dela pode ser nulo.
+
+
+
+import Platform é utilizado para o React-Native 
+
+identificar em qual sistema operacional você está executando o código
+
+
+React.fc é um pacote utilizado para poder personalizar o componente que está sendo criado.
+
+
+Configurações de cores são colocadas em uma pasta a parte chamada constants
+
+Constants serve para guardar valores e ações que nunca mudam na aplicação
+
+Para maximizar a manutenabilidade do código, arrays de cores são bem vindos, 
+
+exemplo : azul : {100: azul claro, 200: azul escuro }
+
+
+
+
+
+
+
