@@ -1,0 +1,43 @@
+CONGRUENCIA MODULAR
+
+Definição: Dois numeros inteiros (EZ) são congruentes a um outro número inteiro, se m/a e m/b,
+deixam o mesmo resto.
+
+a=b; (mod m)
+
+então: 
+
+a divisão: m/a m/b os restos são iguais:
+
+Exemplo:
+
+1) 27 é congruente a 15 mod 6
+
+27/6 = dá 4 sobra 3
+15/6 = dá 2 sobra 3
+
+Só o restante importa.
+
+Hoje é quinta feira, daqui a 250 dias qual dia da semana vai ser?
+
+250/7 = dá 35 semanas sobra 5, significa que o dia da semana vai ser quinta + 5 que é = a terça.
+
+
+
+13^55 é congruente a 1^55
+
+
+
+2^50 divido por 6, qual o resto?
+Resposta: É igual a 4
+
+
+(2³) / 6 
+
+2^50 = 2^48+2 = 2^48 * 2² porque a base é a mesma, então só se somam os expoentes
+
+2^50 = 2^48+2 = 2^48 * 2² = 2^3*16 * 4 = (2³)^16 * 4 = 8^16 * 4
+
+
+2^50 é congruente a 8^16*4 que é congruente a 2^16*4 que é congruente a 8^5*2*4 que é congruente a 2^5*2*4 que é congruente a 2³*4*2*4 que é congruente a 2*4*2*4 que é congruente a 2*2 que é = a 4
+Então 2^50 tem resto 4
