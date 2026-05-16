@@ -21,13 +21,29 @@
 
 ## 📍 Topics
 
-> Topics include software engineering, algorithms, systems, mobile development, agile management and HCI.
+> Topics include software engineering, algorithms, data structures, computer systems, 
+> software development, databases, mobile development, agile methodologies and human-computer interaction.
 
 - _Software Engineering_
-- _Software Development (Java)_
-- _Databases_
-- _Mobile Development (React)_ 
-- _Agile Methodology_
-- _UI/UX_
+- _Software Development (Java & Spring)_
+- _Databases (SQL & NoSQL)_
+- _Mobile Development (React Native)_
+- _Data Structures & Algorithms_
+- _Computer Systems_
+- _Agile Methodologies_
+- _Human-Computer Interaction (UI/UX)_
+- _Business Intelligence_
+
+<br>
+
+## 🛠️ Mentioned Stack
+
+- Spring Framework
+- JavaFX
+- React Native
+- Java
+- Object-oriented programming
+- SQL
+- NoSQL
 
 ---
