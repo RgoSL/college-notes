@@ -1,0 +1,15 @@
+AULA TABD 15-02 DCL SQL
+
+
+COMANDOS PRINCIPAIS
+
+REVOKE
+Trata-se de remover acessos anteriormente concedidos a um usuário, como funcionários demitidos ou mudança de RN.
+Só pode alterar casos que tenham sido setados com GRANT.
+Pode ser específico ou geral.
+
+GRANT
+Trata-se de conceder acessos e privilégios aos usuários, de forma limitada ou por níveis. 
+
+DENY
+É sobre marcar explicitamente algo e alguém que não pode ocorrer.
