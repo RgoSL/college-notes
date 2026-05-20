@@ -1,0 +1,30 @@
+18-05 - POKEAPI
+
+Requisição da API é feita de maneira assync para o processamento da API não congelar a aplicação.
+
+É utilizado em conjunto com funções do UseEffect para definir que a tela só pode ser renderizada após o complete de algumas etapas.
+
+
+Dentro da classe de implementação entre a API e a nossa aplicação tem uma lista de chamadas, cujo principal objetivo são os
+
+"Results" que settamos como esperados/desejados da API.
+
+
+Padrão de Projetos
+
+ADAPTER -
+
+É quando se tem 2 tomadas de entradas diferentes, para conseguir ligar um aparelho na fonte de energia, é necessário uma conversão de tipos
+Esse conversor, é chamado Adapter. No caso da tomada, é um Benjamim/T.
+
+A grande vantagem do Adapter é não precisar se prender ao padrão das tecnologias externas que estamos utilizando. Pois ele permite ajustar
+a forma como as informações são usadas, desde que você continue sabendo o que está sendo puxado.
+
+Padrão de organização do código -
+
+Para adicionar APIs é necessário criar uma pasta dedicada na raiz do projeto(src) chamada "Integration", e aplicar o nome principal do produto requisitado + integration, exemplo "pokemonIntegration".
+
+
+
+
+
