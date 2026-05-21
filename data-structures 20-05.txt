@@ -1,0 +1,31 @@
+data-structures 20-05
+
+ALGORITMOS DE BUSCA
+
+Busca em Largura (Breadth-First Search- BFS)
+
+- Explora diferentes níveis da árvore
+- Lógica FIFO
+- Percorre a estrutura completa
+- Ótima para custos uniformes
+
+Conceitos da Pesquisa -
+
+Profundidade e Nível são iguais, quanto mais níveis, maior a distância do inicio da estrutura
+Largura = Extensão neste mesmo conceito, se trata do quanto é possível explorar de uma Arvore por nível
+
+Os nós da Árvore são visitados da esquerda para a direita
+
+
+Conceito importante
+
+"Espaço de estados" são todos os caminhos disponíveis
+
+
+
+Código exemplo de uma recursão, que é uma função que chama a si própria
+public static int f(int v[], int tam) {
+	if (tam-1==0) return v[0];
+	return v[tam-1] + f(v, tam-1);
+}
+
