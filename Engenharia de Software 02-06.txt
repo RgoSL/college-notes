@@ -1,0 +1,63 @@
+Engenharia de Software 02-06
+
+
+
+Interfaces de Sistema
+
+Exemplo:
+
+Figuras Geométricas
+
+- Figuras Geométricas podem ser Retângulos ou Circulos
+- Retangulo e Circulo são classes com os métodos: desenhar e redimensionar
+
+
+Exemplo 2:
+
+Robos Executores
+
+- Primeiro sistema: Robo corta, então é modificado para pintar. Modificação
+- Segundo Sistema: Robo corta, depois passa a poder pintar e cortar. Extensão
+
+Principio do SOLID, Aberto a Extender, Travado Para Modificar. Não se tira uma funcionalidade antiga em troca de outra nova. Apenas adicione.
+
+
+Conceito de Acoplamento Concreto:
+
+Quando uma classe depende de uma que também depende dela.
+
+Acoplamento Abstrato:
+
+
+
+
+Melhoria do Exemplo 01 Das Figuras:
+
+- Tornamos o acoplamento abstrato. Ligando o controller FigGeo a uma dependência da Interface desenhável, que liga as classes de Circulo e Retângulo. Tornando o sistema mais manutenível, permitindo uma adição de novas formas de maneira mais correta.
+
+
+Single Responsability - Cada classe só tem uma função, mas não de maneira extrema também.
+Principio de Liskov - A Classe que herda deve conseguir substituir a classe de quem herdou.
+
+
+SOLID Definições:
+
+Single Responsability
+Open Extension Close Modification
+Liskov Principle
+Interface
+Dependence Inversion
+
+Variáveis de Instância são a mesma coisa que Atributos
+Variáveis de Classe são Atributos Estáticos
+Constante não é Atributo
+
+
+O SOLID prioriza Coesão, Reutilização e Manutenibilidade
+
+
+
+
+
+
+
